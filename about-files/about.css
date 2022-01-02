@@ -1,0 +1,136 @@
+.about-section {
+    width: 100%;
+    min-height: 100vh;
+    padding: 150px 100px 0;
+    position: relative;
+    top: 0;
+    transition: 1s;
+}
+
+.about {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 55%;
+    grid-gap: 40px;
+}
+
+.about-img-container {
+    position: relative;
+}
+
+.about-info {
+    color: #fff;
+    opacity: 0.6;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.about-img {
+    width: 500px;
+}
+
+.download-cv-btn {
+    position: absolute;
+    left: 55px;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .5s;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.download-cv-btn :hover {
+    background: gray;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    border-bottom: 200px;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 20px;
+    line-height: 2;
+}
+
+p {
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5;
+}
+
+.oneletrajz {
+    font-size: 10px;
+    color: white;
+    line-height: 1.5;
+}
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden !important;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    outline: none !important;
+    color: #fff;
+}
+
+.border-shape {
+    background: #ffbe00 none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    height: 3px;
+    left: 0;
+    margin: 20px auto;
+    position: relative;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 80px;
+}
+
+.border-shape::before {
+    background: #ffbe00 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    left: 80px;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    top: 1px;
+    width: 100px;
+}
+
+.border-shape::after {
+    background: #ffbe00 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    margin: 0 auto;
+    position: absolute;
+    right: 80px;
+    text-align: center;
+    top: 1px;
+    width: 100px;
+}
